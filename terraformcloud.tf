@@ -1,10 +1,9 @@
+terraform {
+  backend "remote" {
+    organization = "example-org-627f89"
 
-   
-#terraform {
-#  backend "remote" {
-
-#    workspaces {
-#      name = "lesson12"
-#    }
-#  }
-#}
+    workspaces {
+      name = "openthisworld"
+    }
+  }
+}
