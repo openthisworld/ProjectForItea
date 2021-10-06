@@ -1,10 +1,10 @@
 
    
-terraform {
-  backend "remote" {
+#terraform {
+#  backend "remote" {
 
-    workspaces {
-      name = "lesson12"
-    }
-  }
-}
+#    workspaces {
+#      name = "lesson12"
+#    }
+#  }
+#}
